@@ -8,6 +8,8 @@ def main():
     a = input("세 자리 정수를 입력하세요. ")
     print(a[::-1])
 
+    return
+
 
 if __name__ == '__main__':
     main()
