@@ -12,10 +12,10 @@ def main():
         print()
 
     if time < 12 :
-        print("am")
+        print("AM")
             
     else :
-        print("pm")
+        print("PM")
 
     return
 
