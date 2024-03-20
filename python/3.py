@@ -5,6 +5,17 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
+    while True :
+        time = int(input("시간을 입력해주세요(0~23)"))
+        if 0 <= time <= 23 :
+            break
+        print("다시 입력해주세요")
+
+    if time < 12 :
+        print("am")
+            
+    else :
+        print("pm")
 
     return
 

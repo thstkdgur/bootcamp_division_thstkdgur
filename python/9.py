@@ -5,6 +5,17 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
+    while True :
+        n = int(input("양의 정수를 입력해주세요. "))
+        if n > 0 :
+            break
+        print("X")  
+
+    sum = 0
+    for i in range(0,n+1) :
+        sum += i
+    print(sum)
+
 
     return
 

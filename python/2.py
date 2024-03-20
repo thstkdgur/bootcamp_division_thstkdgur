@@ -5,6 +5,14 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
+    age = int(input("나이를 입력해주세요. "))
+
+    if age >= 61 :
+        print("DISCOUNT")
+        print("BOARAD")
+
+    else :
+        print("BOARD")
 
     return
 
