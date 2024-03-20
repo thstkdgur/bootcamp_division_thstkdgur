@@ -5,7 +5,7 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
-    age = int(input("나이를 입력해주세요. "))
+    age = int(input())
 
     if age >= 61 :
         print("DISCOUNT")

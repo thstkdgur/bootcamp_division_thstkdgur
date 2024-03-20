@@ -6,7 +6,7 @@
 def main():
     # 이곳에 코드를 작성해주세요!
     while True :
-        n = int(input("양의 정수를 입력해주세요. "))
+        n = int(input())
         if n > 0 :
             break
         print("X")  

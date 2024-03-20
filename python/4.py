@@ -6,10 +6,10 @@
 def main():
     # 이곳에 코드를 작성해주세요!
     while True :
-        score = int(input("점수를 입력해주세요(0~100)"))
+        score = int(input())
         if 0 <= score <= 100 :
             break
-        print("다시 입력해주세요. ")
+        print()
 
     if score < 60 :
         print("F")

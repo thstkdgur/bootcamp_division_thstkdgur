@@ -5,7 +5,7 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
-    Alphabet = input("알파벳 하나를 입력해주세요. ")
+    Alphabet = input()
     Vowels = {"a","e","i","o","u"}
     if Alphabet in Vowels :
         print("O")

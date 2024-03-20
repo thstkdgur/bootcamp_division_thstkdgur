@@ -6,10 +6,10 @@
 def main():
     # 이곳에 코드를 작성해주세요!
     while True :
-        n = int(input("숫자를 입력해주세요(12이하의 정수)"))
+        n = int(input())
         if n <= 12 :
             break
-        print("다시 입력해주세요. ")
+        print()
     
     sum = 0
     for i in range(0,n+1) :

@@ -6,16 +6,16 @@
 def main():
     # 이곳에 코드를 작성해주세요!
     while True :
-        year = int(input("연도를 입력해주세요. "))
+        year = int(input())
         if 0 < year :
             break
-        print("다시 입력해주세요. ")
+        print()
 
     while True :
-        month = int(input("월을 입력해주세요. "))
+        month = int(input())
         if 1 <= month <= 12 :
             break
-        print("다시 입력해주세요. ")
+        print()
 
     if year % 4 == 0 and year % 100 != 0 :
         if month in {4,6,9,11} :
