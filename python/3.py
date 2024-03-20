@@ -7,7 +7,7 @@ def main():
     # 이곳에 코드를 작성해주세요!
     while True :
         time = int(input())
-        if 0 <= time <= 23 :
+        if 0 <= time and time <= 23 :
             break
         print()
 
