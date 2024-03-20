@@ -5,10 +5,10 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
-    a = input("세 자리 정수를 입력하세요. ")
+    a = input()
     print(a[::-1])
-
     return
+
 
 
 if __name__ == '__main__':
